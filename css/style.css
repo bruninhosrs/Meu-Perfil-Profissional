@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+#perfil-container {
+    background-color: hsl(0, 0%, 12%);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+}
+
+#perfil-container img {
+    width: 100px; /* Largura fixa */
+    height: 100px; /* Altura fixa */
+    object-fit: cover; /* Garante que a imagem seja cortada proporcionalmente */
+    border-radius: 50%; 
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Necessário para que o margin funcione corretamente */
+}
+
+#perfil-container h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#perfil-container h3 {
+    font-size: 1rem;
+    color: hsl(120, 50%, 70%);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#perfil-container p {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+
+#social-midia-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#social-midia-container a button {
+    width: 200px; /* Define uma largura fixa para os botões */
+    padding: 10px 20px; /* Espaçamento interno (vertical e horizontal) */
+    background-color: hsl(0, 0%, 20%); 
+    color: white; 
+    border: none; /* Remove a borda */
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    text-align: center; 
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+#social-midia-container a button:hover {
+    background-color: hsl(0, 0%, 30%); /* Cor de fundo ao passar o mouse */
+}
+
+@media (max-width: 480px) {
+    #perfil-container {
+        width: 90%;
+        margin: 50px auto;
+        padding: 15px;
+        border-radius: 15px;
+        height: auto;
+    }
+
+    #perfil-container img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    #perfil-container h1 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    #perfil-container h3 {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    #perfil-container p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    #social-midia-container {
+        gap: 10px;
+    }
+
+    #social-midia-container a button {
+        width: 100%; /* Botões ocupam toda a largura */
+        max-width: 300px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
