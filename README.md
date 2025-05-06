@@ -2,7 +2,7 @@
 
 Este é um projeto simples e eficiente do meu **Perfil Profissional**, criado para treinar **HTML e CSS**. A aplicação permite que você seja direcionado para minhas redes sociais profissionais como o **LinkedIn e GitHub** e também para enviar um **e-email** a partir dos botões.
 
-👉 **Deploy online:** _[Clique aqui para acessar]()_
+👉 **Deploy online:** _[https://bruninhosrs.github.io/Meu-Perfil-Profissional/]()_
 
 ---
 
